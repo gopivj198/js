@@ -1,0 +1,50 @@
+<html>
+<head>
+<h1>Headline made with HTML</h1>
+<style>
+body {
+	font-family: sans-serif;
+	text-align: center;
+	padding: 3rem;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	transition: all 725ms ease-in-out;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin-bottom: 1rem;
+}
+
+p {
+	margin-bottom: 1rem;
+	color: tomato;
+}
+
+button {
+	cursor: pointer;
+	appearance: none;
+	border-radius: 4px;
+	font-size: 1.25rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid navy;
+	background-color: dodgerblue;
+	color: white;
+}
+
+</style>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Javascript Worked.";
+}
+</script>
+</head>
+<body>
+<p id="demo">Simple text paragraph. The color of this text is styled with CSS. 
+Click the button below to check the JavaScript.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+</body>
+</html>
